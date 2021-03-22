@@ -1,4 +1,4 @@
-const products = require('../products.json')
+const products = require('../../products.json')
 
 const getProducts = (req, res) => {
     if(req.query.price) {
